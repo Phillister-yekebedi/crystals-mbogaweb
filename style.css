@@ -1,0 +1,70 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    size: 10%;
+    margin-top: 1% ;
+    margin-left: 5px ;
+}
+.navbar img{
+    height: 100px;
+}
+nav li a{
+    text-decoration:dotted;
+
+}
+.container1{
+    display: flex;
+    text-align: center;
+}
+.box1{
+    gap: 30px;
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.icon ion-icon{
+    margin-left: 60px;
+}
+span{
+    color: black;
+    font-size: larger;
+    padding: 5px;
+    font-weight: bold;
+}
+.box2{
+background-image: url(./project.images/cover.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 500px;    
+}
+.endpage{
+    display: grid;grid-template-columns: repeat(3,1fr);
+margin-top:4rem ;
+background-color:rgb(165, 208, 102);
+padding: 3rem;
+}
+.fit{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    gap:60px ;  
+   
+}
+.box4 img{
+   height: 350px;
+   width: 350px;
+}
+.box5 img{
+    height: 350px;
+    width: 350px;
+}
+.box6 img{
+    height: 350px;
+    width: 350px;
+}
